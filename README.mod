@@ -7,7 +7,7 @@ It connects people who **need blood** with those who are willing to **donate**, 
 
 ---
 
-## ✨ Features  
+## ✨ Feature  
 
 ### 🧑‍🤝‍🧑 User Side  
 - **Get Started Page** → Choose:  
