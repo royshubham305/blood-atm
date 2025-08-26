@@ -31,7 +31,7 @@ It connects people who **need blood** with those who are willing to **donate**, 
 - **Frontend**: [React](https://react.dev/)  
 - **Language**: [TypeScript](https://www.typescriptlang.org/)  
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
-- **Database & Auth**: [Firebase](https://firebase.google.com/)  
+- **Database**: [Firebase](https://firebase.google.com/)  
 - **Hosting**: [Netlify](https://www.netlify.com/)  
 - **Integration**: [Telegram WebApp API](https://core.telegram.org/bots/webapps)  
 
