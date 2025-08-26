@@ -1,70 +1,51 @@
-# 🩸 BloodATM  
+# 🩸 BloodATM
 
-[🌐 Web App](https://bloodatm.netlify.app/) | [🤖 Telegram Mini App](https://t.me/Bloodatmbot)  
+[![Netlify Status](https://api.netlify.com/api/v1/badges/<your-build-id>/deploy-status)](https://app.netlify.com/sites/bloodatm/deploys)
+[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-blue.svg)](https://t.me/Bloodatmbot)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**BloodATM** is a modern web application for **blood donation and request management**, also available as a **Telegram Mini App**.  
-It connects people who **need blood** with those who are willing to **donate**, while providing an **admin dashboard** to track requests in real time.  
+**BloodATM** is a modern web application for **blood donation and request management**, also available as a **Telegram Mini App**. It connects people who need blood with willing donors, featuring a real-time admin dashboard for request tracking.
 
----
-
-## ✨ Feature  
-
-### 🧑‍🤝‍🧑 User Side  
-- **Get Started Page** → Choose:  
-  - **Request Blood** – Fill in your name, phone number, and address  
-  - **Donate Blood** – Register as a donor with your contact details  
-- Submissions are stored in **Firebase Realtime Database** along with the user’s **IP address**  
-
-### 🔑 Admin Side  
-- **Login-protected admin panel**  
-- **Dashboard** with real-time requests and donor submissions  
-- Data synced directly from Firebase  
-
-### 💬 Telegram Mini App  
-- Available as [@Bloodatmbot](https://t.me/Bloodatmbot)  
-- Request or donate blood directly inside Telegram  
-- Built on **Telegram WebApp API**, with the same functionality as the web app  
+🌐 **Web App**: [https://bloodatm.netlify.app/](https://bloodatm.netlify.app/)  
+🤖 **Telegram Mini App**: [https://t.me/Bloodatmbot](https://t.me/Bloodatmbot)
 
 ---
 
-## 🛠 Tech Stack  
-- **Frontend**: [React](https://react.dev/)  
-- **Language**: [TypeScript](https://www.typescriptlang.org/)  
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
-- **Database & Auth**: [Firebase](https://firebase.google.com/)  
-- **Hosting**: [Netlify](https://www.netlify.com/)  
-- **Integration**: [Telegram WebApp API](https://core.telegram.org/bots/webapps)  
+## ✨ Features
+
+### 🧑‍🤝‍🧑 User Features
+- **Get Started Page** with two options:
+  - **Request Blood** - Submit your name, phone number, and address
+  - **Donate Blood** - Register as a donor with contact details
+- Simple, intuitive form submission process
+- Responsive design for all device types
+
+### 🔑 Admin Features
+- **Secure login-protected admin panel**
+- **Real-time dashboard** displaying requests and donor submissions
+- Direct data synchronization from Firebase
+- Request management capabilities
+
+### 💬 Telegram Mini App Integration
+- Available as [@Bloodatmbot](https://t.me/Bloodatmbot)
+- Full functionality identical to web app
+- Seamless experience within Telegram
+- Built on **Telegram WebApp API**
 
 ---
 
-## 🚀 Getting Started  
+## 🛠 Tech Stack
 
-### Web App  
-1. Visit [BloodATM](https://bloodatm.netlify.app/)  
-2. Click **Get Started**  
-3. Choose **Request Blood** or **Donate Blood** and submit your details  
-4. Admin logs in to manage requests  
-
-### Telegram Mini App  
-1. Open Telegram and search for [@Bloodatmbot](https://t.me/Bloodatmbot)  
-2. Tap **Start App** to launch the mini app  
-3. Perform the same actions—request or donate blood within Telegram  
-
----
-
-## 📌 Roadmap  
-- 🔔 Push notifications in Telegram for new requests/donations  
-- 🧪 Search & filter submissions by **blood group** and **location**  
-- 🗺️ **Google Maps integration** for nearby donor matching  
-- 👥 Multi-admin support with role-based permissions  
+| Component          | Technology |
+|--------------------|------------|
+| **Frontend Framework** | React |
+| **Programming Language** | TypeScript |
+| **Styling** | Tailwind CSS |
+| **Backend & Database** | Firebase Realtime Database |
+| **Authentication** | Firebase Auth |
+| **Hosting** | Netlify |
+| **Telegram Integration** | Telegram WebApp API |
 
 ---
 
-## 🔒 Privacy & Security  
-- User data (Name, Phone, Address, IP) stored securely in Firebase  
-- Admin panel is **login-protected**  
-- Telegram Mini App runs client-side using **Telegram’s secure API**  
-
----
-
-⭐ If you find this project useful, please **star this repo**!
+## 📦 Project Structure
